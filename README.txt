@@ -5,3 +5,5 @@ We took it upon ourselves to go further than what the requirements called for. U
 The database did not have to be created by us - however, we chose to do so, as building databases is fun! SQL is probably my favority language to code in (MySQL).
 
 As part of the project, we also had to provide documentation on various aspects of the project (e.g. functional specs, timelines, change orders, etc.), as well as a 10-minute presentation/demonstration at the end of the semester to the professor and students in the class. We got an (almost) perfect score!
+
+Test
