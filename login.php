@@ -24,7 +24,7 @@ require('config.php'); //Requires connection to database
 			$_SESSION['admin'] = $myusername; //passes the username variable to the admin session
                         
                        
-			echo '<script type="text/javascript">window.location = "http://bookinterchange.atwebpages.com/admin/home.php","_self"</script>';
+			echo '<script type="text/javascript">window.location = "http://bookinterchange.atwebpages.com/admin/index.html","_self"</script>';
 		}
                 
                 //if the role of the user is Department_Head, the department_head session is created
@@ -34,7 +34,7 @@ require('config.php'); //Requires connection to database
                         $_SESSION['department_head'] = $myusername;//passes the username variable to the head session
                         $_SESSION['course'] = $row['course']; //passes the course variable to the course session
                         
-			echo '<script type="text/javascript">window.location = "http://bookinterchange.atwebpages.com/department_head/home.php","_self"</script>';
+			echo '<script type="text/javascript">window.location = "http://bookinterchange.atwebpages.com/department_head/index.html","_self"</script>';
 		}
                 
                 //if the role of the user is Instructor, the instructor session is created
@@ -44,7 +44,7 @@ require('config.php'); //Requires connection to database
                         $_SESSION['instructor'] = $myusername;//passes the username variable to the instructor session
                         $_SESSION['course'] = $row['course']; //passes the course variable to the course session
                         
-			echo '<script type="text/javascript">window.location = "http://bookinterchange.atwebpages.com/instructor/home.php","_self"</script>';
+			echo '<script type="text/javascript">window.location = "http://bookinterchange.atwebpages.com/instructor/index.html","_self"</script>';
 		}
                  //if the role of the user is Employee, the employee session is created
                 
@@ -53,7 +53,7 @@ require('config.php'); //Requires connection to database
                         $_SESSION['employee'] = $myusername;//passes the username variable to the instructor session
                         
                         
-			echo '<script type="text/javascript">window.location = "http://bookinterchange.atwebpages.com/employee/home.php","_self"</script>';
+			echo '<script type="text/javascript">window.location = "http://bookinterchange.atwebpages.com/employee/index.html","_self"</script>';
 		}
                 
                 } else {
