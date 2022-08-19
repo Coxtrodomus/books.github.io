@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+        font-family: 'Roboto', sans-serif;
+        background: url(../img/books.jpg) no-repeat center center fixed;
+        background-size: cover;
+        
+}
+
+
+.main-section {
+        margin: 0 auto;
+        margin-top: 130px;
+        padding: 0;
+        
+}
+.modal-content {
+        background-color: #3b4652;
+        opacity: .95;
+        padding: 50px 10px 18px;
+        box-shadow: 0px 0px 3px #848484;
+
+}
+.form-group {
+        margin-bottom: 25px;
+}
+.form-group input{
+        height: 42px;
+        border-radius: 5px;
+        border: 0;
+        font-size: 18px;
+        padding-left: 54px;
+}
+.form-group::before {
+        font-family: 'Font Awesome\ 5 Free';
+        content: "\f007";
+        position: absolute;
+        font-size: 22px;
+        color: #555e60;
+        left: 28px;
+        padding-top: 4px;
+}
+.form-group:last-of-type::before {
+        content: "\f023"
+}
+
+
+button {
+        width: 40%;
+        margin: 5px 0 25px;
+}
+.btn {
+        background-color: #d4a115;
+        color: #fff;
+        font-size: 19px;
+        padding: 7px 14px;
+        border-radius: 5px;
+        border-bottom: 4px solid #fab905;
+}
+.btn:hover, .btn:focus {
+        color: #595959;
+        background-color: #ffc626!important;
+        border-bottom: 4px solid #ffc626!important;
+}
+.svg-inline--fa{
+        font-size: 20px;
+        margin-right: 7px;
+}
